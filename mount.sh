@@ -1,1 +1,1 @@
-multipass shell . myapp:/mnt
+multipass mount . myapp:/mnt

@@ -19,3 +19,4 @@ ip netns exec ns2 ip link set dev ns2-veth0 address 00:00:5e:00:53:02
 
 # ip netns exec ns1 tcpdump -tnel -i ns1-veth0 icmp
 # -l : Network Namespace でスニッフィングするときはこれをつける(標準出力がバッファリングされない)
+# -e : Ethernetヘッダを表示(MACアドレスなど)
